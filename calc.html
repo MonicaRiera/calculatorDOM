@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="calc.css">
+		<script src="calc.js" defer></script>
+	</head>
+	<body>
+		<div id="calc">
+			<div id="display"></div>
+			<div id="keys">
+				<button id="7" type="button" onclick="updateValue(this)">7</button>
+				<button id="8" type="button" onclick="updateValue(this)">8</button>
+				<button id="9" type="button" onclick="updateValue(this)">9</button>
+				<button id="%" type="button" class="operator" onclick="operation(this)">%</button>
+				<button id="4" type="button" onclick="updateValue(this)">4</button>
+				<button id="5" type="button" onclick="updateValue(this)">5</button>
+				<button id="6" type="button" onclick="updateValue(this)">6</button>
+				<button id="X" type="button" class="operator" onclick="operation(this)">X</button>
+				<button id="1" type="button" onclick="updateValue(this)">1</button>
+				<button id="2" type="button" onclick="updateValue(this)">2</button>
+				<button id="3" type="button" onclick="updateValue(this)">3</button>
+				<button id="-" type="button" class="operator" onclick="operation(this)">-</button>
+				<button id="0" type="button" onclick="updateValue(this)">0</button>
+				<button id="." type="button" onclick="updateValue(this)">.</button>
+				<button id="=" type="button" class="action" onclick="equals()">=</button>
+				<button id="+" type="button" class="operator" onclick="operation(this)">+</button>
+			</div>
+		</div>
+	</body>
+</html>
